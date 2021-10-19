@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000 !important;
+    min-height: 100vh;
+    display: flex;justify-content: center;align-items: center;
+    flex-direction: column;
+}
+.home{
+    padding: 50px;
+    display: flex;justify-content: center;align-items: center;
+}
+.home-img{
+    width: 20rem;
+}
+.home .h2{
+    color: #fff;
+    font-size: 2rem;
+}
+.home .h5{
+    color: #fff;
+    font-size: 1rem;
+}
+
+.home .h6{
+    font-size: .8rem;
+    color: #999;
+}
+.btn-buy-now .btn{
+    background-color: rgb(228, 228, 19) !important;
+    color: #222 !important;
+    font-weight: 600 !important;
+    border-radius: 50px !important;
+    padding: 5px 15px !important;
+}
+
+.copyright{
+    color: #fafafa;
+    opacity: 0.2;
+    font-size: 0.8rem;
+}
+@media (max-width:767px) {
+    .btn-buy-now{
+        text-align: center;
+    }
+}
+@media (max-width:348px) {
+    .home-img{
+        width: 15rem;
+    }
+    .home .h2{
+        font-size: 1.5rem;
+    }
+    .home .h5{
+        font-size: 0.8rem;
+    }
+    
+    .home .h6{
+        font-size: .6rem;
+    }
+    .btn-buy-now .btn{
+        font-size: 0.8rem;
+    }
+}
